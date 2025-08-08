@@ -39,12 +39,6 @@ export default function Home() {
     }
   };
 
-  const images = [
-    "/placeholder.svg?height=400&width=600",
-    "/placeholder2.svg?height=400&width=600",
-    "/placeholder3.svg?height=400&width=600",
-  ];
-
   return (
     <div className="flex flex-col min-h-screen">
       <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -153,7 +147,7 @@ export default function Home() {
               </div>
               <div className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last">
                 <img
-                  alt="Developer coding"
+                  alt="Avatar de Nicolas Tomasi"
                   className="object-contain w-full h-full"
                   src="/avatar-nicolas-tomasi.png?height=600&width=800"
                 />
@@ -223,7 +217,7 @@ export default function Home() {
               </div>
               <div className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full">
                 <img
-                  alt="Developer portrait"
+                  alt="Foto de Nicolas Tomasi"
                   className="object-cover w-full h-full"
                   src="/nicolas-tomasi.jpg?height=600&width=600"
                 />
@@ -351,7 +345,7 @@ export default function Home() {
                 <div className="aspect-video overflow-hidden">
                   <img
                     src="/em-construção.png?height=400&width=600"
-                    alt="E-commerce App"
+                    alt="Em construção"
                     className="object-cover w-full h-full transition-all hover:scale-105"
                   />
                 </div>
@@ -370,7 +364,7 @@ export default function Home() {
                 <div className="aspect-video overflow-hidden">
                   <img
                     src="/controle-de-fila-frontend.png?height=400&width=600"
-                    alt="App de Gestão"
+                    alt="Front-end Controle de fila"
                     className="object-cover w-full h-full transition-all hover:scale-105"
                   />
                 </div>
