@@ -32,9 +32,9 @@ export default function Home() {
         formRef.current,
         "fsJ-aFAClsuBz53lb"
       );
+      formRef.current.reset();
       alert("E-mail enviado com sucesso!");
     } catch (error) {
-      console.log(error);
       alert("Erro ao enviar email.");
     }
   };
@@ -121,11 +121,12 @@ export default function Home() {
                     <span className="sr-only">WhatsApp</span>
                   </Link>
                   <Link
-                    href="mailto:tomasitrabalho@gmail.com"
+                    href="https://www.linkedin.com/in/nicolastomasidasilva"
+                    target="_blank"
                     className="text-muted-foreground hover:text-foreground"
                   >
-                    <Mail className="h-5 w-5" />
-                    <span className="sr-only">Email</span>
+                    <Linkedin className="h-5 w-5" />
+                    <span className="sr-only">LinkedIn</span>
                   </Link>
                   <Link
                     href="https://github.com/NicolasTomasiDaSilva"
@@ -134,14 +135,6 @@ export default function Home() {
                   >
                     <Github className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
-                  </Link>
-                  <Link
-                    href="https://www.linkedin.com/in/nicolastomasidasilva"
-                    target="_blank"
-                    className="text-muted-foreground hover:text-foreground"
-                  >
-                    <Linkedin className="h-5 w-5" />
-                    <span className="sr-only">LinkedIn</span>
                   </Link>
                 </div>
               </div>
@@ -456,21 +449,6 @@ export default function Home() {
                       <span>(51) 98161-5718</span>
                     </div>
                   </Link>
-                  <Link href="mailto:tomasitrabalho@gmail.com">
-                    <div className="flex items-center gap-2">
-                      <Mail className="h-5 w-5 text-primary" />
-                      <span>tomasitrabalho@gmail.com</span>
-                    </div>
-                  </Link>
-                  <Link
-                    href="https://github.com/nicolastomasidasilva"
-                    target="_blank"
-                  >
-                    <div className="flex items-center gap-2">
-                      <Github className="h-5 w-5 text-primary" />
-                      <span>github.com/nicolastomasidasilva</span>
-                    </div>
-                  </Link>
                   <Link
                     href="https://linkedin.com/in/nicolastomasidasilva"
                     target="_blank"
@@ -558,11 +536,12 @@ export default function Home() {
                 <span className="sr-only">WhatsApp</span>
               </Link>
               <Link
-                href="mailto:tomasitrabalho@gmail.com"
+                href="https://www.linkedin.com/in/nicolastomasidasilva"
+                target="_blank"
                 className="text-muted-foreground hover:text-foreground"
               >
-                <Mail className="h-5 w-5" />
-                <span className="sr-only">Email</span>
+                <Linkedin className="h-5 w-5" />
+                <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
                 href="https://www.github.com/nicolastomasidasilva"
@@ -571,14 +550,6 @@ export default function Home() {
               >
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/nicolastomasidasilva"
-                target="_blank"
-                className="text-muted-foreground hover:text-foreground"
-              >
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
               </Link>
             </div>
           </div>
